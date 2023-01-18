@@ -1,5 +1,5 @@
 const User = require("../models/User");
-const Friend = require("../models/Friends");
+
 module.exports = {
   getUsers(req, res) {
     User.find()
